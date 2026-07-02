@@ -1,7 +1,7 @@
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Resume", href: "https://drive.google.com/file/d/1__-8UyAAA3mup32KNIc3VuCT4-7cCHKj/view?usp=drive_link" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1HkeqRTdWG1HA4zTALw_2VimwzE6CBhCl/view?usp=drive_link" },
   { label: "Contact", href: "#contact" },
 ];
 
