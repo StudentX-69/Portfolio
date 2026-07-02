@@ -1,7 +1,7 @@
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Portfolio", href: "#portfolio" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1__-8UyAAA3mup32KNIc3VuCT4-7cCHKj/view?usp=drive_link" },
   { label: "Contact", href: "#contact" },
 ];
 
