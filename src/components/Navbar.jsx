@@ -1,4 +1,9 @@
-import { imgLogo } from "../assets/images";
+const navLinks = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Portfolio", href: "#portfolio" },
+  { label: "Contact", href: "#contact" },
+];
 
 export default function Navbar() {
   return (
@@ -14,14 +19,14 @@ export default function Navbar() {
 
       {/* Nav links */}
       <nav className="flex gap-14">
-        {["Home", "About", "Resume"].map((item) => (
+        {navLinks.map((item) => (
           <a
-            key={item}
-            href={`#${item.toLowerCase()}`}
+            key={item.href}
+            href={item.href}
             className="text-white font-semibold text-xl tracking-wide hover:text-purple-400 transition-colors"
             style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
           >
-            {item}
+            {item.label}
           </a>
         ))}
       </nav>
