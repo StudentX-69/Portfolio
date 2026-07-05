@@ -7,6 +7,7 @@ import {
   imgImage1,
   imgArrow,
 } from "../assets/images";
+import Glow from "../components/Glow";
 
 export default function HeroSection() {
   const [ref, visible] = useFadeIn(0.1);
@@ -51,6 +52,10 @@ export default function HeroSection() {
         <div className="flex items-start gap-8 mb-4 mx-40 mt-10">
           {/* Avatar */}
           <div className="relative w-[200px] h-[200px] flex-shrink-0">
+             <Glow
+              size={220}
+              className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"
+            />
             <img
               src={imgEllipse3}
               alt=""
@@ -106,6 +111,7 @@ export default function HeroSection() {
               <br />
               by its <span className="text-purple-500">cover</span>...
             </h2>
+            <div className=" absolute top-11  left-[40%] border-white border  h-11 w-40 rounded-[50%]"></div>
           </div>
           <p
             className="text-white text-xs mt-3"

@@ -21,6 +21,10 @@ export default function ProjectCard({ side, title, tag, description, liveUrl, sc
         } items-center gap-10`}
       >
         {/* Screenshot */}
+        <Glow
+            size={420}
+            className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"
+          />       
         <a
           href={liveUrl}
           target="_blank"

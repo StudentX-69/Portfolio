@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useFadeIn } from "../hooks/useFadeIn";
 import SkillBadge from "../components/SkillBadge";
 import { SKILL_ICONS_ROW1, SKILL_ICONS_ROW2 } from "../assets/data";
+import Glow from "../components/Glow";
 // 1. Import the new hook (Note the name change)
 import { useCanvas } from "../hooks/canvas"; 
 import {
@@ -65,6 +66,12 @@ export default function SkillsSection() {
           <img src={imgEllipse22} alt="" aria-hidden className="pointer-events-none  select-none absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[580px] opacity-25" style={{ zIndex: -3 }} />
           <img src={imgEllipse23} alt="" aria-hidden className="pointer-events-none  select-none absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[480px] opacity-20" style={{ zIndex: -3 }} />
         </div>
+        {/* Glow behind the circle */}
+         <Glow
+          size={300}
+          opacity={0.5}
+          className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"
+        />
 
         {/* Center glow layers */}
         <img src={imgEllipse6}  alt="" aria-hidden className="pointer-events-none mt-5  select-none absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[340px] opacity-50" style={{ zIndex: -2 }} />
