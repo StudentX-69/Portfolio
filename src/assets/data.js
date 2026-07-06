@@ -47,7 +47,7 @@ export const PROJECTS = [
     title: "Netflix-Clone",
     tag: "Featured Project",
     description:
-      "A modern web app replicating the Netflix interface, featuring dynamic movie data integration from an external API, responsive design, and smooth user navigation.",
+     "A modern web app replicating the Netflix interface, featuring dynamic movie data integration from an external API (Note: Live data fetching may require a VPN due to regional ISP restrictions). Includes responsive design and smooth user navigation.",
     liveUrl: "https://netflix-clone-8u7jfaozy-studentx-69s-projects.vercel.app/",
   },
 ];
