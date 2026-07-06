@@ -11,6 +11,12 @@ export default function App() {
       style={{ backgroundColor: "#1a0b2e" }}
     >
       {/* Full-page background texture */}
+      {/* <img
+        src={imgBackground}
+        alt=""
+        aria-hidden
+        className="fixed inset-0 w-full h-full object-cover opacity-80 pointer-events-none select-none z-0"
+      /> */}
 
       <div className="relative z-10">
         <Navbar />

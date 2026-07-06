@@ -8,10 +8,10 @@ const screenMap = {
   2: imgNetflixScreen,
 };
 
-const iconMap = {
-  1: imgIconClick,
-  2: imgIconClick1,
-};
+// const iconMap = {
+//   1: imgIconClick,
+//   2: imgIconClick1,
+// };
 
 export default function PortfolioSection() {
   return (
@@ -27,7 +27,7 @@ export default function PortfolioSection() {
             description={project.description}
             liveUrl={project.liveUrl}
             screen={screenMap[project.id]}
-            clickIcon={iconMap[project.id]}
+            // clickIcon={iconMap[project.id]}
           />
         ))}
       </div>
