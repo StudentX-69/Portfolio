@@ -6,7 +6,7 @@ export default function SkillBadge({ img, label }) {
       <img
         src={img}
         alt={label}
-        className="absolute inset-0 m-auto w-[35px] h-[35px] object-contain brightness-110"
+        className="absolute inset-0 m-auto w-[35px] h-[35px] object-contain brightness-115"
       />
     </div>
   );
