@@ -1,6 +1,6 @@
 
 export default function Glow({
-  size = 320,
+  size = 500,
   color = "#8b5cf6", // brand accent (purple-500)
   opacity = 0.55,
   blur = 90,

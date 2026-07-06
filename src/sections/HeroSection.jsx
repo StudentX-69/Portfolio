@@ -1,13 +1,7 @@
 import { useEffect, useState } from "react";
 import { useFadeIn } from "../hooks/useFadeIn";
-import {
-  imgGradient3,
-  imgEllipse3,
-  imgEllipse5,
-  imgImage1,
-  imgArrow,
-} from "../assets/images";
 import Glow from "../components/Glow";
+import image from "../assets/Avatar.png";
 
 export default function HeroSection() {
   const [ref, visible] = useFadeIn(0.1);
@@ -27,19 +21,9 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-20 px-6"
+      className="relative h-screen flex flex-col justify-center overflow-hidden pt-20 px-6 py-4"
     >
-      {/* Gradient blob — background layer, behind all content */}
-      <div id="gradient" className="absolute left-[150px]  top-[200px] overflow-hidden inset-0 pointer-events-none select-none">
-      <img
-        src={imgGradient3}
-        alt=""
-        aria-hidden
-        className="pointer-events-none select-none absolute h-60 ml-5  w-[350px]1/2 opacity-80 -z-1"
-        style={{ zIndex: -1 }}
-      />
-      </div>
-     
+
       <div
         ref={ref}
         className="relative z-10 max-w-5xl mx-auto w-full transition-all duration-700"
@@ -54,27 +38,18 @@ export default function HeroSection() {
           <div className="relative w-[200px] h-[200px] flex-shrink-0">
              <Glow
               size={220}
-              className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"
+              className="left-1/2 top-[80%] -translate-x-1/2 -translate-y-1/2 -z-10"
             />
             <img
-              src={imgEllipse3}
-              alt=""
-              aria-hidden
-              className="absolute top-[100px] inset-0 w-full h-full object-cover"
-            />
-            <img
-              src={imgImage1}
+              src={image}
               alt="Abhay"
-              className="absolute top-[120px] bottom-0 left-1/2 -translate-x-1/2 h-[175px] w-auto object-cover"
+              className="absolute top-[120px] bottom-0 left-1/2 -translate-x-1/2 h-full w-auto object-cover"
             />
             {/* Arrow decoration */}
-            <div className="absolute top-0 -right-8 w-[100px]  rotate-[-135deg] scale-y-[-1]">
-              <img src={imgArrow} alt="" aria-hidden className="w-full" />
-            </div>
           </div>
 
           {/* Greeting */}
-          <div className="p-4">
+          <div className="p-2 mt-10">
             <p
               className="text-white text-lg tracking-wide"
               style={{ fontFamily: "'Preahvihear', sans-serif" }}
@@ -93,12 +68,6 @@ export default function HeroSection() {
         {/* "Judges a book by its cover..." */}
         <div className="mb-6 ml-[400px]">
           <div className="relative inline-block mb-1">
-            <img
-              src={imgEllipse5}
-              alt=""
-              aria-hidden
-              className="absolute left-[135px] -bottom-1   left-0 w-[55%] h-1/2 opacity-80 pointer-events-none"
-            />
             <h2
               className="text-white font-normal leading-tight relative z-10"
               style={{

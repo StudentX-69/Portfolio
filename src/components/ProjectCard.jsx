@@ -1,5 +1,5 @@
 import { useFadeIn } from "../hooks/useFadeIn";
-import { imgGradient2 } from "../assets/images";
+import Glow from "../components/Glow";
 
 export default function ProjectCard({ side, title, tag, description, liveUrl, screen, clickIcon }) {
   const [ref, visible] = useFadeIn(0.12);
@@ -22,9 +22,12 @@ export default function ProjectCard({ side, title, tag, description, liveUrl, sc
       >
         {/* Screenshot */}
         <Glow
-            size={420}
-            className="left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"
-          />       
+          size={320}
+          className={`top-1/2 -translate-y-1/2 -z-10 ${
+          isLeft
+          ? "right-1/3 translate-x-1/2": "left-1/3 -translate-x-1/2"
+  }`}
+/>     
         <a
           href={liveUrl}
           target="_blank"

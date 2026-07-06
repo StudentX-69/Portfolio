@@ -13,10 +13,10 @@ export function useCanvas() {
 
     const CURVE_CONFIG = {
         numLines: 6,
-        spreadPercent: 0.2,  
+        spreadPercent: 0.25,  
         reducedMotionSpreadPercent: 0.3,
         maxSpread: 1000,     
-        flareHeight: 0.35,   
+        flareHeight: 0.25,   
         bottomOffset: 80     
     };
 

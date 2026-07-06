@@ -13,7 +13,6 @@ export default function Navbar() {
     >
       {/* Logo */}
       <div className="">
-        {/* <img src={imgLogo} alt="Logo" className="h-full w-full object-contain" /> */}
         <h1 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }} className="text-xl font-bold  ">Abhay Nirmalkar</h1>
       </div>
 

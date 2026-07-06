@@ -1,5 +1,4 @@
 import { useFadeIn } from "../hooks/useFadeIn";
-import { imgGradient2, imgSocialIcons } from "../assets/images";
 import {Mail} from 'lucide-react';
 import 'remixicon/fonts/remixicon.css'
 

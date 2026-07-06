@@ -1,34 +1,33 @@
 import {
-  imgSkillCSS,
-  imgSkillHTML,
-  imgSkillJS,
-  imgSkillReact,
-  imgSkillTS,
+  imgSkillPython,
+  imgSkillDjango,
   imgSkillRedux,
-  imgSkillTailwind,
+  imgSkillNodejs,
   imgSkillFigma,
-  imgSkillGit,
-  imgSkillNode,
-  imgSkillMongo,
+  imgSkillSQL,
+  imgSkillExpressjs,
+  imgSkillMongoDB,
+  imgSkillGO,
   imgSkillGraphQL,
+  imgSkillTypescript,
 } from "./images";
 
 export const SKILL_ICONS_ROW1 = [
-  { img: imgSkillCSS,      label: "CSS"      },
-  { img: imgSkillHTML,     label: "HTML"     },
-  { img: imgSkillJS,       label: "JS"       },
-  { img: imgSkillTS,       label: "TS"       },
-  { img: imgSkillRedux,    label: "Redux"    },
-  { img: imgSkillTailwind, label: "Tailwind" },
+  { img: imgSkillFigma,       label: "Figma"    },
+  { img: imgSkillNodejs,      label: "Node.js"  },
+  { img: imgSkillExpressjs,   label: "Express.js" },
+  { img: imgSkillRedux,       label: "Redux"  },
+  { img: imgSkillTypescript,  label: "typescript"},
+  { img: imgSkillDjango,      label: "Django"   },
+  
 ];
 
 export const SKILL_ICONS_ROW2 = [
-  { img: imgSkillFigma,   label: "Figma"   },
-  { img: imgSkillGit,     label: "Git"     },
-  { img: imgSkillReact,    label: "React"  },
-  { img: imgSkillNode,    label: "Node"    },
-  { img: imgSkillMongo,   label: "MongoDB" },
+  { img: imgSkillMongoDB, label: "MongoDB" },
   { img: imgSkillGraphQL, label: "GraphQL" },
+  { img: imgSkillSQL,      label: "SQL"      },
+  { img: imgSkillPython,   label: "Python"   },
+  { img: imgSkillGO,       label: "GO"       },
 ];
 
 export const PROJECTS = [
