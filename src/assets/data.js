@@ -35,19 +35,19 @@ export const PROJECTS = [
   {
     id: 1,
     side: "right",
-    title: "Monk Chocolate",
+    title: "QueueLess",
     tag: "Featured Project",
     description:
-      "An e-commerce storefront for a chocolate brand, built with React and Tailwind CSS. Features a product catalog with category browsing, a shopping cart, and a clean, responsive layout designed to make the product photography do the talking.",
-    liveUrl: "https://monk-psi-flame.vercel.app/",
+      "QueueLess is a real-time queue management web application designed to optimize customer flow for service-based businesses. Featuring a clean, responsive interface, it empowers clinics, salons, and small businesses to efficiently manage live queues while allowing customers to track their token status remotely and receive real-time alerts.",
+    liveUrl: "https://q1-six-cyan.vercel.app/",
   },
   {
     id: 2,
     side: "left",
-    title: "Netflix-Clone",
+    title: "Snake Game",
     tag: "Featured Project",
     description:
-     "A modern web app replicating the Netflix interface, featuring dynamic movie data integration from an external API (Note: Live data fetching may require a VPN due to regional ISP restrictions). Includes responsive design and smooth user navigation.",
-    liveUrl: "https://netflix-clone-8u7jfaozy-studentx-69s-projects.vercel.app/",
+     "A responsive, interactive web-based Snake game featuring real-time score tracking, time monitoring, and classic grid-based gameplay.",
+    liveUrl: "https://studentx-69.github.io/Snake-Game/",
   },
 ];

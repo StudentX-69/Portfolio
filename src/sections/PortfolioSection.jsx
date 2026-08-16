@@ -1,17 +1,12 @@
 import ProjectCard from "../components/ProjectCard";
 import { PROJECTS } from "../assets/data";
-import imgProjectScreen from "../assets/monk.png";
-import imgNetflixScreen from "../assets/netflix.png";
+import imgProjectScreen from "../assets/queueless.png";
+import imgSnakeScreen from "../assets/snake.png";
 
 const screenMap = {
   1: imgProjectScreen,
-  2: imgNetflixScreen,
+  2: imgSnakeScreen,
 };
-
-// const iconMap = {
-//   1: imgIconClick,
-//   2: imgIconClick1,
-// };
 
 export default function PortfolioSection() {
   return (
@@ -27,7 +22,6 @@ export default function PortfolioSection() {
             description={project.description}
             liveUrl={project.liveUrl}
             screen={screenMap[project.id]}
-            // clickIcon={iconMap[project.id]}
           />
         ))}
       </div>
